@@ -44,7 +44,7 @@ html lang=(attr :lang, 'en' unless attr? :nolang)
          progress: #{attr 'revealjs_progress', 'true'},
 
          // Display the page number of the current slide
-         slideNumber: #{attr 'revealjs_slideNumber', 'false'},
+         slideNumber: #{attr 'revealjs_slidenumber', 'false'},
 
          // Push each slide change to the browser history
          history: #{attr 'revealjs_history', 'false'},
@@ -77,37 +77,37 @@ html lang=(attr :lang, 'en' unless attr? :nolang)
          // Number of milliseconds between automatically proceeding to the
          // next slide, disabled when set to 0, this value can be overwritten
          // by using a data-autoslide attribute on your slides
-         autoSlide: #{attr 'revealjs_autoSlide', 0},
+         autoSlide: #{attr 'revealjs_autoslide', 0},
 
          // Stop auto-sliding after user input
-         autoSlideStoppable: #{attr 'revealjs_autoSlideStoppable', 'true'},
+         autoSlideStoppable: #{attr 'revealjs_autoslidestoppable', 'true'},
 
          // Enable slide navigation via mouse wheel
-         mouseWheel: #{attr 'revealjs_mouseWheel', 'false'},
+         mouseWheel: #{attr 'revealjs_mousewheel', 'false'},
 
          // Hides the address bar on mobile devices
-         hideAddressBar: #{attr 'revealjs_hideAddressBar', 'true'},
+         hideAddressBar: #{attr 'revealjs_hideaddressbar', 'true'},
 
          // Opens links in an iframe preview overlay
-         previewLinks: #{attr 'revealjs_previewLinks', 'false'},
+         previewLinks: #{attr 'revealjs_previewlinks', 'false'},
 
          // Transition style
          transition: '#{attr 'revealjs_transition', 'default'}', // default/cube/page/concave/zoom/linear/fade/none
 
          // Transition speed
-         transitionSpeed: '#{attr 'revealjs_transitionSpeed', 'default'}', // default/fast/slow
+         transitionSpeed: '#{attr 'revealjs_transitionspeed', 'default'}', // default/fast/slow
 
          // Transition style for full page slide backgrounds
-         backgroundTransition: '#{attr 'revealjs_backgroundTransition', 'default'}', // default/none/slide/concave/convex/zoom
+         backgroundTransition: '#{attr 'revealjs_backgroundtransition', 'default'}', // default/none/slide/concave/convex/zoom
 
          // Number of slides away from the current that are visible
-         viewDistance: #{attr 'revealjs_viewDistance', 3},
+         viewDistance: #{attr 'revealjs_viewdistance', 3},
 
          // Parallax background image
-         parallaxBackgroundImage: '#{attr 'revealjs_parallaxBackgroundImage', ''}', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+         parallaxBackgroundImage: '#{attr 'revealjs_parallaxbackgroundimage', ''}', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
 
          // Parallax background size
-         parallaxBackgroundSize: '#{attr 'revealjs_parallaxBackgroundSize', ''}', // CSS syntax, e.g. "2100px 900px"
+         parallaxBackgroundSize: '#{attr 'revealjs_parallaxbackgroundsize', ''}', // CSS syntax, e.g. "2100px 900px"
 
          // Optional libraries used to extend on reveal.js
          dependencies: [
