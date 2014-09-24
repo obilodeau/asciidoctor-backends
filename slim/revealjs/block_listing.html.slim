@@ -3,7 +3,7 @@
     .title=captioned_title
   .content
     - nowrap = !(@document.attr? :prewrap) || (option? 'nowrap')
-    - if @style == 'source'
+    - if @style == 'source' || @style == 'listing'
       - language = attr :language
       - code_class = language ? [language, "language-#{language}"] : nil
       - pre_class = ['highlight']
