@@ -148,7 +148,7 @@ they are specific of +revealjs+ backend.
 
 [options="header",cols="1m,1"]
 |===
-|Attribute                        |Description
+|Attribute                            |Description
 |:revealjs_controls: <true\|false>    | Display controls in the bottom right corner. Default: true
 |:revealjs_progress: <true\|false>    | Display a presentation progress bar. Default: true
 |:revealjs_slideNumber: <true\|false> | Display the page number of the current slide. Default: false
@@ -175,7 +175,7 @@ they are specific of +revealjs+ backend.
 |:revealjs_backgroundTransition: <transition>| Transition style for full page slide backgrounds.
                                                Valid values: default/none/slide/concave/convex/zoom
 |:revealjs_viewDistance: <integer>           | Number of slides away from the current that are visible. Default: 3
-|:revealjs_parallaxBackgroundImage: <file\|url>     | Parallax background image. Defaults to none
+|:revealjs_parallaxBackgroundImage: <file\|URL>     | Parallax background image. Defaults to none
 |:revealjs_parallaxBackgroundSize: <CSS size syntax>| Parallax background size (accepts any CSS syntax). Defaults to none
 
 |===
