@@ -47,7 +47,7 @@ html lang=(attr :lang, 'en' unless attr? :nolang)
          slideNumber: #{attr 'revealjs_slidenumber', 'false'},
 
          // Push each slide change to the browser history
-         history: #{attr 'revealjs_history', 'false'},
+         history: #{Helpers.attr_jsbool 'revealjs_history', 'false'},
 
          // Enable keyboard shortcuts for navigation
          keyboard: #{attr 'revealjs_keyboard', 'true'},
